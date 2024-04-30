@@ -1,0 +1,154 @@
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Our Contact Address</title>
+  <style>
+   
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: yellow;
+      background-color: green;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: orange;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: dimgray;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: yellow;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+      background-color: yellow;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1250px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+    header{
+    background-color:pink;
+    padding: 20px;
+}
+
+section{
+    padding:28px;
+    border-bottom: 1px solid #ddd;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color:pink;
+}
+  </style>
+  </head>
+
+  <header>
+
+<body bgcolor="dimblue">
+  <form method="GET" class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+   <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+    <img src="./image/logevent.png" width="90" height="70" alt="Logo">
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./event.php">EVENT</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./attendee.php">ATTENDEE</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./session.php">SESSION</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./organizer.php">ORGANIZER</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./venue.php">VENUE</a></li>
+
+    <li style="display: inline; margin-right: 10px;"><a href="./speaker.php">SPEAKER</a></li>
+    
+  
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Change Account</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li><br><br>
+    
+    
+    
+  </ul>
+
+</header>
+<section>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="Feedback">Feedback</option>
+            </select><br><br>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+<p>Connect with us on social media or social networkings:
+
+  <a href="https://www.twitter.com/onlineshop">Twitter</a>
+  <a href="https://www.facebook.com/onlineshop">Facebook</a>
+  <a href="https://www.instagram.com/onlineshop">Instagram</a>
+  <a href="https://www.linkedin.com/onlineshop">LinkedIn</a>
+</p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024, Designer by:BYUKUSENGE Sarah</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
+
